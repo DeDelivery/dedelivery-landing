@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/dedelivery-landing/static/css/main.073c9b0a.css",
-    "main.js": "/dedelivery-landing/static/js/main.e3ccc7ec.js",
-    "static/js/787.ac09cbda.chunk.js": "/dedelivery-landing/static/js/787.ac09cbda.chunk.js",
-    "static/media/logo.svg": "/dedelivery-landing/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/dedelivery-landing/static/css/main.e6cfdffd.css",
+    "main.js": "/dedelivery-landing/static/js/main.fbc54099.js",
     "index.html": "/dedelivery-landing/index.html",
-    "main.073c9b0a.css.map": "/dedelivery-landing/static/css/main.073c9b0a.css.map",
-    "main.e3ccc7ec.js.map": "/dedelivery-landing/static/js/main.e3ccc7ec.js.map",
-    "787.ac09cbda.chunk.js.map": "/dedelivery-landing/static/js/787.ac09cbda.chunk.js.map"
+    "main.e6cfdffd.css.map": "/dedelivery-landing/static/css/main.e6cfdffd.css.map",
+    "main.fbc54099.js.map": "/dedelivery-landing/static/js/main.fbc54099.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.e3ccc7ec.js"
+    "static/css/main.e6cfdffd.css",
+    "static/js/main.fbc54099.js"
   ]
 }
