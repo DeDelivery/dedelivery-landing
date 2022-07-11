@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,32 +17,10 @@ section {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
+  background: #e7e7e7;
+  mix-blend-mode: normal;
 }
 
 .container::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
-}
-
-.one {
-  background-color: yellow;
-}
-
-.two {
-  background-color: blue;
-}
-
-.three {
-  background-color: red;
-}
-
-.four {
-  background-color: green;
-}
-
-.five {
-  background-color: orange;
-}
-
-.six {
-  background-color: pink;
-}
+} */

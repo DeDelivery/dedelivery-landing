@@ -1,0 +1,22 @@
+.partners {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.partners .sectionPartners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 67vh;
+  color: black;
+  background: #e7e7e7;
+}
+
+.partners .sectionFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33vh;
+  color: white;
+  background: #a8005b;
+}
