@@ -1,0 +1,9 @@
+.abstract {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  scroll-snap-align: start;
+  background: linear-gradient(180deg, #ff2056 0%, #a8005b 100%);
+}

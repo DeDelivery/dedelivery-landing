@@ -1,0 +1,26 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  background: #e7e7e7;
+  mix-blend-mode: normal;
+}
+
+.container::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+} */

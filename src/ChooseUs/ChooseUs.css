@@ -1,0 +1,10 @@
+.choose-us {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  scroll-snap-align: start;
+  background: #e7e7e7;
+  mix-blend-mode: normal;
+}
