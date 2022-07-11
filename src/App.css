@@ -1,9 +1,48 @@
-.screen {
-  width: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
   height: 100vh;
   display: flex;
-  background: linear-gradient(180deg, #ff2056 0%, #a8005b 100%);
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.container::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.one {
+  background-color: yellow;
+}
+
+.two {
+  background-color: blue;
+}
+
+.three {
+  background-color: red;
+}
+
+.four {
+  background-color: green;
+}
+
+.five {
+  background-color: orange;
+}
+
+.six {
+  background-color: pink;
 }
