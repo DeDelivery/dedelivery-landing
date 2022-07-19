@@ -24,7 +24,7 @@ jobs:
       - run: npm run build
 
       - name: Deploy 🚀
-        uses: CepedaBrayan/ghaction-github-pages@v1
+        uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           target_branch: gh-pages
           build_dir: build
