@@ -26,6 +26,7 @@ jobs:
           cache: "npm"
 
   build-and-deploy:
+    neeeds: check-node
     runs-on: ubuntu-latest
     steps:
       - name: Install and Build 🔧
