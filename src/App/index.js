@@ -12,9 +12,9 @@ function App() {
     <React.Fragment>
       <Container>
         <Abstract />
-        <KnowUs />
+        {/* <KnowUs />
         <AppTour />
-        <ChooseUs />
+        <ChooseUs /> */}
         <Team />
         <Partners />
       </Container>
