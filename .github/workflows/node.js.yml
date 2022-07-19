@@ -12,6 +12,9 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    strategy:
+    matrix:
+      node-version: [16.x]
     concurrency: ci-${{github.ref}}
 
     steps:
@@ -24,8 +27,6 @@ jobs:
           npm run build
 
       - name: Deploy 🚀
-        uses: CepedaBrayan/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: build # The folder the action should deploy.
-
+        run: |
+          git config user.name "CepedaBrayan" && git config user.email "riveracepedabrayan@gmail.com"
+          npm run deploy
