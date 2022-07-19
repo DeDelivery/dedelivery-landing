@@ -13,8 +13,8 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     strategy:
-    matrix:
-      node-version: [16.x]
+      matrix:
+        node-version: [16.x]
     concurrency: ci-${{github.ref}}
 
     steps:
