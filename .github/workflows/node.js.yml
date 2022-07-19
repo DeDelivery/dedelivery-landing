@@ -28,6 +28,4 @@ jobs:
       - run: npm ci
       # - run: npm run test
       - run: npm run build --if-present
-      - run: git config --global user.email "riveracepedabrayan@gmail.com"
-      - run: git config --global user.name "CepedaBrayan"
-      - run: npm run deploy
+      # - run: npm run deploy
