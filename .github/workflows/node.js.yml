@@ -14,20 +14,18 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [12.x, 14.x, 16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
-
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
 
-  build:
-    needs: check-node
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Install and Build 🔧
@@ -35,12 +33,7 @@ jobs:
           npm ci
           npm run build
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build # The folder the action should deploy.
-          message: "Deployed with Node.js ${{ matrix.node-version }}"
