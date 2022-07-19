@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.037636cf.css",
-    "main.js": "/static/js/main.0faedfbd.js",
+    "main.css": "/static/css/main.1ea7e6b8.css",
+    "main.js": "/static/js/main.9874ecac.js",
+    "static/media/diego.png": "/static/media/diego.a4e5fd604eb52c232eb2.png",
+    "static/media/juanca.png": "/static/media/juanca.4c247e5878185326dadf.png",
+    "static/media/cepeda.png": "/static/media/cepeda.3083b22d2f47b5a2a712.png",
+    "static/media/ivan.png": "/static/media/ivan.7d9504edd7afb522c808.png",
+    "static/media/parce.png": "/static/media/parce.ee26eb3740ed9b8c4eef.png",
+    "static/media/phone.png": "/static/media/phone.f3bf58c3c706ac97dba3.png",
+    "static/media/moto.png": "/static/media/moto.31a5ffac1270d4979b66.png",
+    "static/media/partner1.png": "/static/media/partner1.fee8246c6f70912fa2fb.png",
+    "static/media/partner2.png": "/static/media/partner2.c94a2e1458b5b21a9913.png",
     "index.html": "/index.html",
-    "main.037636cf.css.map": "/static/css/main.037636cf.css.map",
-    "main.0faedfbd.js.map": "/static/js/main.0faedfbd.js.map"
+    "main.1ea7e6b8.css.map": "/static/css/main.1ea7e6b8.css.map",
+    "main.9874ecac.js.map": "/static/js/main.9874ecac.js.map"
   },
   "entrypoints": [
-    "static/css/main.037636cf.css",
-    "static/js/main.0faedfbd.js"
+    "static/css/main.1ea7e6b8.css",
+    "static/js/main.9874ecac.js"
   ]
 }
