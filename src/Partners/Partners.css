@@ -19,7 +19,7 @@
   color: #000;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
 
@@ -49,22 +49,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .partnerLogos .logo {
-  width: 30vw;
+  width: 40vw;
+  min-width: 160px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 10px;
 }
 
 .partnerLogos .logo .partner1 {
-  width: 20vh;
+  width: 50%;
+  min-width: 125px;
 }
 
 .partnerLogos .logo .partner2 {
-  width: 10vh;
+  width: 30%;
+  min-width: 75px;
 }
 
 .partners .sectionFooter {
@@ -94,25 +99,7 @@
   font-weight: 500;
 }
 
-@media screen and (max-width: 450px) {
-  .partnerLogos {
-    width: 100vw;
-    height: 47vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .partnerLogos .logo .partner1 {
-    width: 20vh;
-  }
-
-  .partnerLogos .logo .partner2 {
-    margin-top: 10vw;
-    width: 10vh;
-  }
-
+@media screen and (max-width: 768px) {
   .slogan {
     width: 100vw;
     display: flex;

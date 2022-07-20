@@ -23,7 +23,7 @@ function Team() {
               <br></br>
               <b>IVAN MAÑUS</b>
               <br></br>
-              Programmer Magician & Co-Founder <br></br>
+              Pro Magician & Co-Founder <br></br>
               <br></br>4 years of experience as dev <br></br>2 years as Solidity
               dev
             </p>
