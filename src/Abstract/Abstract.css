@@ -84,15 +84,15 @@
 
 @media screen and (max-width: 768px) {
   .oneP {
-    font-size: 3vw;
+    font-size: 15px;
   }
 
   .twoP {
-    font-size: 6vw;
+    font-size: 30px;
   }
 
   .threeP {
-    font-size: 3vw;
+    font-size: 15px;
   }
 
   .moto img {
