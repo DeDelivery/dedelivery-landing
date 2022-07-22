@@ -100,11 +100,17 @@
 @media screen and (max-width: 640px) {
   .slogan {
     /* width: 100vw; */
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin-bottom: 10vh;
+  }
+
+  .slogan img {
+    margin-bottom: 0;
   }
 
   .partnersTitle {
