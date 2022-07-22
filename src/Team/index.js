@@ -24,8 +24,10 @@ function Team() {
               <b>IVAN MAÑUS</b>
               <br></br>
               Pro Magician & Co-Founder <br></br>
-              <br></br>4 years of experience as dev <br></br>2 years as Solidity
-              dev
+              <p className="aditionalInfo">
+                <br></br>4 years of experience as dev <br></br>2 years as
+                Solidity dev
+              </p>
             </p>
           </div>
         </div>
@@ -40,8 +42,10 @@ function Team() {
               <b>JUAN CARLOS CANTÓ</b>
               <br></br>
               Innovation Nerd & Co-Founder <br></br>
-              <br></br>5 years of experience as dev<br></br>4 years as Solidity
-              dev
+              <p className="aditionalInfo">
+                <br></br>5 years of experience as dev<br></br>4 years as
+                Solidity dev
+              </p>
             </p>
           </div>
         </div>
@@ -56,8 +60,10 @@ function Team() {
               <b>DIEGO PARADA </b>
               <br></br>
               Super Designer <br></br>
-              <br></br>4 years of experience as designer <br></br>1 year as
-              creative director
+              <p className="aditionalInfo">
+                <br></br>4 years of experience as designer <br></br>1 year as
+                creative director
+              </p>
             </p>
           </div>
         </div>
@@ -72,8 +78,10 @@ function Team() {
               <b>BRAYAN CEPEDA</b>
               <br></br>
               Web Pro <br></br>
-              <br></br>4 years of experience as web dev <br></br> 1 year as web3
-              dev
+              <p className="aditionalInfo">
+                <br></br>4 years of experience as web dev <br></br> 1 year as
+                web3 dev
+              </p>
             </p>
           </div>
         </div>
