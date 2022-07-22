@@ -49,12 +49,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .partnerLogos .logo {
   width: 40vw;
-  min-width: 160px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,12 +62,12 @@
 
 .partnerLogos .logo .partner1 {
   width: 50%;
-  min-width: 125px;
+  min-width: 200px;
 }
 
 .partnerLogos .logo .partner2 {
   width: 30%;
-  min-width: 75px;
+  min-width: 100px;
 }
 
 .partners .sectionFooter {
@@ -99,12 +97,43 @@
   font-weight: 500;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   .slogan {
-    width: 100vw;
+    /* width: 100vw; */
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
+  }
+
+  .partnersTitle {
+    height: 10vh;
+  }
+
+  .partnerLogos {
+    height: 70vh;
+    flex-direction: column;
+  }
+
+  .partners .sectionPartners {
+    height: 80vh;
+  }
+
+  .partners .sectionFooter {
+    height: 20vh;
+    justify-content: center;
+  }
+
+  .partnerLogos .logo {
+    margin: 10vw;
+  }
+
+  .partnersTitle .title {
+    font-size: 20px;
+  }
+
+  .partnersTitle .subtitle {
+    display: none;
   }
 }
